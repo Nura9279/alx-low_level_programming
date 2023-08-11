@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <dtdio.h>
+#include <stdio.h>
 
 /**
  * main - entry point
  *
- * Description: check for a number positive or negative.
+ * Description: false or true validation
  *
- * Return: always 0 (success)
+ * Return: always 0
 */
 
 int main(void)
