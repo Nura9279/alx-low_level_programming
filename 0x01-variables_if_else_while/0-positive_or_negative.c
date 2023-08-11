@@ -7,7 +7,7 @@
  *
  * Description: check for a number positive or negative.
  *
- * Return: 0 (success)
+ * Return: always 0
 */
 
 int main(void)
