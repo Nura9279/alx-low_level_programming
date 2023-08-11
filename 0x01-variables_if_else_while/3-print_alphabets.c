@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /**
  * main - entry
@@ -19,12 +20,13 @@ int main(void)
 		ch++;
 	}
 
-	/*print A -Z*/
-	while (ch <= 'Z')
+	/*print A - Z*/
+	while (CH <= 'Z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(CH);
+		CH++;
 	}
 	putchar('\n');
 
 	return (0);
+}
