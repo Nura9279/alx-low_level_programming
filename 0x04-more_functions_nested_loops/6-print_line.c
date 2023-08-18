@@ -9,13 +9,13 @@
 
 void print_line(int n)
 {
-	int lnChr;
+	int lnchr;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
-		for (lnChr = 1; lnChr <= n; lnChr++)
+		for (lnchr = 1; lnchr <= n; lnchr++)
 			_putchar(' ');
 		_putchar('\n');
 	}
